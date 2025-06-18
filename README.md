@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>页面水印--wzwatermark</title>
+    <title>Document</title>
 </head>
 <body>
     <h1>页面水印</h1>
     <script src="../dist/index.js"></script>
     <script>
-        //创建
+        /**
+         * @descript 创建
+         * @param   content: '请勿外传',
+                    font: 'Arial, sans-serif',
+                    size: 16,
+                    color: '#000',
+                    opacity: 0.15,
+                    angle: -15,
+                    density: 2
+         * */
         wzwatermark.initWatermark();
         //删除
         // wzwatermark.removeWatermark();
